@@ -1,4 +1,3 @@
-````markdown
 # LoanDefault Navigator 🏦🔍  
 _A Streamlit app for end-to-end loan default risk prediction_
 
@@ -115,5 +114,4 @@ Contributions are welcome! Feel free to:
 
 Questions or suggestions? Open an issue or drop me a line!
 
-```
 ```
