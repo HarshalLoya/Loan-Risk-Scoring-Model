@@ -21,6 +21,8 @@ loan-default-prediction/
 ├── modeling.py              # Train & evaluate Logistic Regression, Random Forest, GBM
 ├── visualization.py         # Plot model metrics: ROC, confusion matrix, importances
 ├── risk_assessment.py       # Map probabilities to Low/Medium/High risk tiers & dashboards
+├── Credit_Risk.ipynb        # Jupyter notebook for exploratory analysis
+├── LCDataDictionary.xlsx    # Column definitions for loan dataset
 ├── app.py                   # Streamlit dashboard wiring all components together
 ├── requirements.txt         # Python dependencies
 └── README.md                # This file
@@ -72,6 +74,8 @@ loan-default-prediction/
      loader = DataLoader(csv_path="data/loans.csv", n_samples=5000)
      ```
    * If no CSV is found, synthetic data will be generated automatically.
+   * Download data: https://www.kaggle.com/datasets/adarshsng/lending-club-loan-data-csv
+   * Place the dowloaded CSV in the project root as `loans.csv`
 
 ---
 
